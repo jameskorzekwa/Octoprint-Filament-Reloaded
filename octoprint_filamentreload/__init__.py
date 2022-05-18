@@ -180,10 +180,10 @@ class FilamentReloadedPlugin(octoprint.plugin.StartupPlugin,
 
     ##~~ AssetPlugin mixin
     def get_assets(self):
-				return {
-					  "js": ["js/filamentreload.js"],
-            "less": ["less/filamentreload.less"],
-            "css": ["css/filamentreload.css"]
+        return {
+                    "js": ["js/filamentreload.js"],
+                    "less": ["less/filamentreload.less"],
+                    "css": ["css/filamentreload.css"]
 				}
         # return dict(js=["js/filamentreload.js"],css=["css/filamentreload.css"],less=["less/psucontrol.less"],)
 
